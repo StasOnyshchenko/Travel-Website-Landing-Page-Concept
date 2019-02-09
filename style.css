@@ -1,0 +1,179 @@
+ html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: url('img/fog-foggy-forest-4827.jpg') no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.logo {
+    line-height: 40px;
+    float: left;
+    margin: 1.2em 0 0 2.2em;
+    font-weight: bolder;
+}
+
+.nav {
+    line-height: 40px;
+    margin: 1.2em;
+    position: absolute;
+    right: 0;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 36px; 
+    cursor: pointer;
+}
+
+.social-media {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.social-media ul li {
+    list-style: none;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.social-media i {
+    transition: 0.3s;
+}
+
+.social-media a:visited {
+    color: #000;
+}
+
+.social-media a:active {
+    color: #000;
+}
+
+.social-media  i:hover {
+     -webkit-transform: scale(1.4);
+     -ms-transform: scale(1.4);
+     transform: scale(1.4);
+    transition: 0.3s;
+}
+
+.side-strip {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    right: -4em;
+    transform: rotate(90deg);
+    letter-spacing: 4px;
+}
+
+.header {
+    position: absolute;
+    top: 38%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+}
+
+.header h1 {
+    font-weight: bolder;
+}
+
+.header p {
+    font-weight: lighter;
+}
+
+.header button {
+    margin-top: 12px;
+    border: none;
+    padding: 16px 40px;
+    background: #fff;
+    color: #000;
+    letter-spacing: 4px;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+    opacity: 0.9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1.7);
+    transition: 0.3s;
+}
+
+.header button:hover {
+    background: #ecf0f1;
+    transition: 0.3s;
+}
+
+.bottom-bar {
+    color: #fff;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+}
+.row {
+    padding: 2em 2em 2em 2em;
+    background: #000;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    opacity: 0.8;
+}
+
+.bottom-bar h5 {
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.bottom-bar p {
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.overlay {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+    background: #fff;
+    top: 0%;
+}
+
+.overlay h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 12px;
+}
+
+.col {
+    padding-right: 10px;
+    text-align: middle;
+    display: inline-block;
+    width: 32%;
+}
+
+.col-1 {
+    padding-right: 15px;
+    text-align: middle;
+    display: inline-block;
+    width: 32%;
+}
+
+.col-2 {
+    padding-right: 0;
+    text-align: middle;
+    display: inline-block;
+    width: 32%;
+}
+
+
+
+
+
+

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https//:code.jquery.com/jquery-3.3.1.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+</head>
+<body>
+    <div class="overlay">
+        <h1>ESCAPE LIFE</h1>
+    </div>
+
+    <div class="wrapper">
+        <div class="logo">Escape</div>
+        <div class="nav">
+            <ul>
+                <li>Home</li>
+                <li>Places</li>
+                <li>Hotels</li>
+                <li>Search</li>
+            </ul>
+        </div>
+        <div class="social-media">
+            <ul>
+                <li><a href="https://www.facebook.com/stas.onishenko.1"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/stas_onyshchenko/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+            </ul>
+        </div>
+        <div class="side-strip">
+            <span>ADVENTURE FILL SOULS</span>
+        </div>
+        <div class="header">
+            <h1>Iceland - The element <br>of nature</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, nesciunt?</p>
+            <button>EXPLORE</button>
+        </div>
+
+        <div class="bottom-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h5>Lorem ipsum dolor sit.</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium magnam pariatur fugiat quod quia placeat repellat molestiae dolores numquam sapiente!Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="col-1">
+                        <h5>Lorem ipsum dolor sit.</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium magnam pariatur fugiat quod quia placeat
+                            repellat molestiae dolores numquam sapiente!Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="col-2">
+                        <h5>Lorem ipsum dolor sit.</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium magnam pariatur fugiat quod quia placeat
+                            repellat molestiae dolores numquam sapiente!Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript">
+
+        TweenMax.to(".overlay h1", 2, {
+            opacity: 0,
+            y: -60,
+            ease: Expo.easeInOut
+        })
+
+        TweenMax.to(".overlay", 2, {
+        delay: 1,
+        top: "-100%",
+        ease: Expo.easeInOut
+        })
+
+        TweenMax.from(".logo", 1, {
+        delay: 1.5,
+        opacity: 0,
+        y: 20,
+        ease: Expo.easeInOut
+        })
+
+        TweenMax.staggerFrom(".nav ul li", 1, {
+            delay: 1.5,
+            opacity: 0, 
+            y: 20,
+            ease: Expo.easeInOut
+        }, 0.2)
+
+        TweenMax.staggerFrom(".social-media ul li", 1, {
+        delay: 1.5,
+        opacity: 0,
+        y: 20,
+        ease: Expo.easeInOut
+        }, 0.2)
+
+        TweenMax.from(".side-strip", 2, {
+        delay: 2,
+        opacity: 0,
+        y: 40,
+        ease: Expo.easeInOut
+        })
+
+        TweenMax.from(".row", 2, {
+        delay: 2,
+        opacity: 0,
+        y: 40,
+        ease: Expo.easeInOut
+        })
+
+        TweenMax.from(".row h5", 2, {
+        delay: 2.1,
+        opacity: 0,
+        y: 40,
+        ease: Expo.easeInOut
+        })
+
+        TweenMax.from(".row p", 2, {
+        delay: 2.4,
+        opacity: 0,
+        y: 10,
+        ease: Expo.easeInOut
+        })
+
+        TweenMax.from(".header h1", 2, {
+        delay: 3,
+        opacity: 0,
+        y: 20,
+        ease: Expo.easeInOut
+        })
+
+        TweenMax.from(".header p", 2, {
+        delay: 3,
+        opacity: 0,
+        y: 20,
+        ease: Expo.easeInOut
+        })
+
+        TweenMax.from(".header button", 2, {
+        delay: 2.6,
+        opacity: 0,
+        y: 20,
+        ease: Expo.easeInOut
+        })
+    </script>
+</body>
+</html>
